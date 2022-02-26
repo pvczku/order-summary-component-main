@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+.card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 400px;
+    border-radius: 15px;
+}
+.banner img {
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+.desc {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.plan {
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+}
+.plan img {
+    padding-left: 15px;
+    margin-right: -50px;
+}
+.link {
+    padding-right: 30px;
+}
+.link span {
+    font-size: 12px;
+}
+.plan p {
+    margin-left: -80px;
+    color: black;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.plan span {
+    color: gray;
+    font-weight: 400;
+}
+.proceed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(245, 75%, 52%);
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow:  -4px 31px 35px -14px hsl(245, 75%, 52%); 
+    box-shadow:  -4px 15px 35px -14px hsl(245, 75%, 52%);
+}
+.proceed p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    
+}
+.cancel {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12px;
+    width:fit-content;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    font-weight: 700;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
